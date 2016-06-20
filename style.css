@@ -9,26 +9,39 @@
   align-items: center;
 }
 .barra-statica a {
-  margin: 5;
+  margin: 5px;
 }
 .titoli {
 margin: 0 auto;
 }
 .titoli a {
-  margin: 20;
+  margin: 20px;
   font-family: cursive;
   color: black;
-}
-.titoli a {
-    text-decoration: none;
-    font-weight: bold;
-    color: black;
+  text-decoration: none;
+  font-weight: bold;
 }
 a:hover {
     color: #0099FF;
 }
-.fondo-primo{
-width="1350"
-height="500"
+.sfondo-primo {
+width: 1028px;
+height: 545px;
 background: url("x_men.jpg") no-repeat;
+margin: auto 150;
+display: flex;
+align-items: centre;
+}
+.sfondo-primo p {
+  position: absolute;
+	right: 400;/*distanza tra il margine destro di #posizionato e il padding di #contenitore*/
+	bottom: 80;/*distanza tra il margine inferiore di #posizionato e il padding di #contenitore*/
+  color: white;
+  font-family: cursive;
+  font-size: 60;
+  margin: auto;
+}
+em {
+  font-size: 20;
+  margin: 200 150;
 }
