@@ -1,16 +1,20 @@
 .barra-statica {
   display: flex;
-  width:1310px;
+  width: 1310px;
   height: 65px;
-  border:6px solid #C0C0C0;
-  margin:10px;
+  border: 6px solid #C0C0C0;
+  margin: 10px;
   background-color:#DDDDDD;
   flex-direction: row;
   align-items: center;
   border-radius: 20px;
 }
 .barra-statica a {
-  margin: 5px;
+  margin: 10px;
+}
+.barra-statica img{
+  width: 100px;
+  height: 100px;
 }
 .titoli {
 margin: 0 auto;
@@ -51,8 +55,6 @@ em {
   width: 100px;
   height: 50px;
   flex-direction: row;
-}
-.barra-informativa p{
   top: 5px;
   right: centre;
 }
