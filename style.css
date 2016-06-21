@@ -7,6 +7,7 @@
   background-color:#DDDDDD;
   flex-direction: row;
   align-items: center;
+  border-radius: 20px;
 }
 .barra-statica a {
   margin: 5px;
@@ -34,14 +35,24 @@ align-items: centre;
 }
 .sfondo-primo p {
   position: absolute;
-	right: 400;/*distanza tra il margine destro di #posizionato e il padding di #contenitore*/
-	bottom: 80;/*distanza tra il margine inferiore di #posizionato e il padding di #contenitore*/
+	right: 400;
+	bottom: 80;
   color: white;
   font-family: cursive;
   font-size: 60;
-  margin: auto;
+  margin: -50 -70;
 }
 em {
   font-size: 20;
-  margin: 200 150;
+  margin: 230;
+}
+.barra-informativa div{
+  border:1px solid #C0C0C0;
+  width: 100px;
+  height: 50px;
+  flex-direction: row;
+}
+.barra-informativa p{
+  top: 5px;
+  right: centre;
 }
