@@ -1,20 +1,23 @@
+body {
+  background-color: #F5F5F5;
+}
 .barra-statica {
   display: flex;
-  width: 1310px;
   height: 65px;
-  border: 6px solid #C0C0C0;
-  margin: 10px;
-  background-color:#DDDDDD;
+  border: 1px solid #DCDCDC;
+  background-color: white;
   flex-direction: row;
   align-items: center;
-  border-radius: 20px;
+  margin-left: -8px;
+  margin-right: -8px;
 }
 .barra-statica a {
   margin: 10px;
 }
-.barra-statica img{
-  width: 100px;
-  height: 100px;
+.barra-statica img {
+  width: 80px;
+  height: 80px;
+  margin-left: 30px;
 }
 .titoli {
 margin: 0 auto;
@@ -25,36 +28,65 @@ margin: 0 auto;
   color: black;
   text-decoration: none;
   font-weight: bold;
+  font-size: 17;
 }
+
 a:hover {
     color: #0099FF;
 }
+.sfondo-primo-wrapper {
+
+}
 .sfondo-primo {
-width: 1028px;
-height: 545px;
-background: url("x_men.jpg") no-repeat;
-margin: auto 150;
-display: flex;
-align-items: centre;
+  max-width: 1028px;
+  height: 506px;
+  background: url("x_men.jpg") no-repeat;
+  margin: 10px auto;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
 }
 .sfondo-primo p {
-  position: absolute;
-	right: 400;
-	bottom: 80;
   color: white;
   font-family: cursive;
-  font-size: 60;
-  margin: -50 -70;
+  font-size: 60px;
+  margin: 0 0 30px 0;
 }
-em {
+.sfondo-primo em {
   font-size: 20;
   margin: 230;
 }
-.barra-informativa div{
-  border:1px solid #C0C0C0;
-  width: 100px;
-  height: 50px;
+.blocco-primario {
+  display: flex;
+  background-color: white;
   flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding-top: 20px;
+  max-width: 1100px;
+  margin: 10px auto;
+}
+.barra-informativa div {
+  width: 110px;
+  height: 60px;
   top: 5px;
-  right: centre;
+  font-family: cursive;
+  font-size: 19px;
+  background-color: white;
+  text-align: center;
+}
+.centro-tabella {
+  border: 1px solid #DCDCDC;
+  border-bottom-color: white;
+}
+.fine-tabella {
+  border: 1px solid #DCDCDC;
+}
+.recensione-parte1 {
+  width: 803px;
+  height: 600px;
+  background-color: white;
 }
