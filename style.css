@@ -1,6 +1,7 @@
 body {
   background-color: #F5F5F5;
 }
+
 .barra-statica {
   display: flex;
   height: 65px;
@@ -10,18 +11,23 @@ body {
   align-items: center;
   margin-left: -8px;
   margin-right: -8px;
+  position:fixed;top: 10px;
 }
+
 .barra-statica a {
   margin: 10px;
 }
+
 .barra-statica img {
   width: 80px;
   height: 80px;
   margin-left: 30px;
 }
+
 .titoli {
 margin: 0 auto;
 }
+
 .titoli a {
   margin: 20px;
   font-family: cursive;
@@ -34,14 +40,12 @@ margin: 0 auto;
 a:hover {
     color: #0099FF;
 }
-.sfondo-primo-wrapper {
 
-}
 .sfondo-primo {
   max-width: 1028px;
   height: 506px;
   background: url("x_men.jpg") no-repeat;
-  margin: 10px auto;
+  margin: 85px auto;
   background-position: center;
   background-size: cover;
   display: flex;
@@ -49,26 +53,31 @@ a:hover {
   align-items: flex-end;
   justify-content: center;
 }
+
 .sfondo-primo p {
   color: white;
   font-family: cursive;
   font-size: 60px;
   margin: 0 0 30px 0;
+
 }
+
 .sfondo-primo em {
   font-size: 20;
   margin: 230;
 }
+
 .blocco-primario {
   display: flex;
   background-color: white;
   flex-direction: row;
   align-items: flex-start;
   justify-content: center;
-  padding-top: 20px;
-  max-width: 1100px;
-  margin: 10px auto;
+  padding-top: 30px;
+  max-width: 1220px;
+  margin: -55px auto;
 }
+
 .barra-informativa div {
   width: 110px;
   height: 60px;
@@ -78,15 +87,29 @@ a:hover {
   background-color: white;
   text-align: center;
 }
+
 .centro-tabella {
   border: 1px solid #DCDCDC;
   border-bottom-color: white;
 }
+
 .fine-tabella {
   border: 1px solid #DCDCDC;
 }
+
 .recensione-parte1 {
   width: 803px;
   height: 600px;
   background-color: white;
+  margin: 0 0 0 60px;
+}
+
+.video{
+  margin: 85px auto;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
 }
