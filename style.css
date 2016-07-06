@@ -4,13 +4,11 @@ body {
 
 .barra-statica {
   display: flex;
-  height: 65px;
+  height: 95px;
   border: 1px solid #DCDCDC;
   background-color: white;
   flex-direction: row;
   align-items: center;
-  margin-left: -8px;
-  margin-right: -8px;
   position:fixed;top: 10px;
 }
 
@@ -45,7 +43,7 @@ a:hover {
   max-width: 1028px;
   height: 506px;
   background: url("x_men.jpg") no-repeat;
-  margin: 85px auto;
+  margin: 120px auto;
   background-position: center;
   background-size: cover;
   display: flex;
@@ -83,9 +81,13 @@ a:hover {
   height: 60px;
   top: 5px;
   font-family: cursive;
-  font-size: 19px;
+  font-size: 18px;
   background-color: white;
   text-align: center;
+}
+
+.barra-informativa em{
+  font-size: 11px;
 }
 
 .centro-tabella {
@@ -102,6 +104,7 @@ a:hover {
   height: 600px;
   background-color: white;
   margin: 0 0 0 60px;
+  font-family: cursive;
 }
 
 .video{
