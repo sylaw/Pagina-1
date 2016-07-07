@@ -4,26 +4,19 @@ body {
 
 .barra-statica {
   display: flex;
-  height: 95px;
-  border: 1px solid #DCDCDC;
+  width: 99%;
+  border-bottom: 2px solid #DCDCDC;
   background-color: white;
   flex-direction: row;
   align-items: center;
-  position:fixed;top: 10px;
-}
-
-.barra-statica a {
-  margin: 10px;
+  position:fixed;top: 0px;
+  box-shadow: 0px 0px 8px;
 }
 
 .barra-statica img {
   width: 80px;
   height: 80px;
   margin-left: 30px;
-}
-
-.titoli {
-margin: 0 auto;
 }
 
 .titoli a {
@@ -43,7 +36,7 @@ a:hover {
   max-width: 1028px;
   height: 506px;
   background: url("x_men.jpg") no-repeat;
-  margin: 120px auto;
+  margin: 95px auto;
   background-position: center;
   background-size: cover;
   display: flex;
@@ -77,26 +70,26 @@ a:hover {
 }
 
 .barra-informativa div {
-  width: 110px;
-  height: 60px;
-  top: 5px;
   font-family: cursive;
-  font-size: 18px;
+  font-size: 15px;
   background-color: white;
   text-align: center;
 }
 
-.barra-informativa em{
-  font-size: 11px;
+.barra-informativa em {
+  font-weight: bold;
+  font-size: 18px;
 }
 
 .centro-tabella {
-  border: 1px solid #DCDCDC;
+  border-bottom: 1px solid #DCDCDC;
+  border-top: 1px solid #DCDCDC;
   border-bottom-color: white;
 }
 
 .fine-tabella {
-  border: 1px solid #DCDCDC;
+  border-bottom: 1px solid #DCDCDC;
+  border-top: 1px solid #DCDCDC;
 }
 
 .recensione-parte1 {
@@ -107,7 +100,14 @@ a:hover {
   font-family: cursive;
 }
 
-.video{
+.titolo-recensione {
+  text-align: center;
+  font-family: cursive;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.video {
   margin: 85px auto;
   background-position: center;
   background-size: cover;
