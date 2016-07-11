@@ -71,8 +71,8 @@ a:hover {
   flex-direction: row;
   align-items: flex-start;
   justify-content: center;
-  padding-top: 30px;
-  max-width: 1220px;
+  padding: 30px;
+  max-width: 70%;
   margin: -55px auto;
 }
 
