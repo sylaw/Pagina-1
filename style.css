@@ -4,7 +4,7 @@ body {
 
 .barra-statica {
   display: flex;
-  width: 99%;
+  width: 100%;
   border-bottom: 2px solid #DCDCDC;
   background-color: white;
   flex-direction: row;
