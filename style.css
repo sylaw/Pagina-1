@@ -5,18 +5,19 @@ body {
 .barra-statica {
   display: flex;
   width: 100%;
-  border-bottom: 2px solid #DCDCDC;
   background-color: white;
   flex-direction: row;
   align-items: center;
+  justify-content: center;
   position:fixed;top: 0px;
-  box-shadow: 0px 0px 8px;
+  box-shadow: 0px 0px 8px 0px;
 }
 
 .barra-statica img {
   width: 80px;
   height: 80px;
-  margin-left: 30px;
+  margin-left: 20px;
+  float: left;
 }
 
 .titoli a {
@@ -33,10 +34,10 @@ a:hover {
 }
 
 .sfondo-primo {
-  max-width: 1028px;
-  height: 506px;
+  max-width: 85%;
+  height: 68%;
   background: url("x_men.jpg") no-repeat;
-  margin: 95px auto;
+  margin: 100px auto 25px auto;
   background-position: center;
   background-size: cover;
   display: flex;
@@ -56,6 +57,7 @@ a:hover {
 .sfondo-primo em {
   font-size: 20;
   margin: 230;
+  justify-content: center;
 }
 
 .blocco-primario {
@@ -64,9 +66,9 @@ a:hover {
   flex-direction: row;
   align-items: flex-start;
   justify-content: center;
-  padding-top: 30px;
-  max-width: 1220px;
-  margin: -55px auto;
+  padding: 30px;
+  max-width: 70%;
+  margin: 0 auto;
 }
 
 .barra-informativa div {
@@ -99,6 +101,7 @@ a:hover {
   margin: 0 0 0 60px;
   font-family: cursive;
   text-align: justify;
+  overflow: auto;
 }
 
 .recensione1:first-letter {
