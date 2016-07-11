@@ -98,6 +98,12 @@ a:hover {
   background-color: white;
   margin: 0 0 0 60px;
   font-family: cursive;
+  text-align: justify;
+}
+
+.recensione1:first-letter {
+  font-size: 50px;
+  color:grey;
 }
 
 .titolo-recensione {
