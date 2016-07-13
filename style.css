@@ -9,7 +9,8 @@ body {
   background-color: white;
   flex-direction: row;
   align-items: center;
-  position:fixed;top: 10px;
+  position:fixed;
+  top: 10px;
 }
 
 .barra-statica a {
