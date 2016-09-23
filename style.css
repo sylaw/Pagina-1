@@ -135,13 +135,15 @@ a:hover {
 }
 
 .img-apocalisse {
-  height: 320px;
-  width: 250px;
+  height: 470px;
+  width: 265px;
 }
 
 .img-apocalisse img {
-  height: 305px;
-  width: 245px;
+  height: 470px;
+  width: 265px;
+  margin-left: 20px;
+  margin-top: 55px;
 }
 
 .blocco-secondario {
